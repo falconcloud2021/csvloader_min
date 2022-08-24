@@ -51,13 +51,21 @@
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Upload Section Button-->
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="#">
-                        <i class="fas fa-download me-2"></i>
-                        Import
-                    </a>
-                </div>
+                <form>                       
+                    <div class="form-group row">
+                        <label class="col-lg-4 col-form-label form-control-label">Please add your CSV file to upload</label>
+                        <div class="col-lg-4">
+                            <input class="form-control" type="file">
+                        </div>
+                    </div>
+                    <!-- Upload Section Button-->
+                    <div class="text-center mt-4">
+                        <a class="btn btn-xl btn-outline-light" href="#">
+                            <i class="fas fa-download me-2"></i>
+                            Import
+                        </a>
+                    </div>   
+                </form>
             </div>
         </section>
         <!-- Clear all records Section-->

@@ -37,23 +37,23 @@
         <header>
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Subheading-->
-                <p class="row">Please add your CSV file to upload</p>
+                <p class="row">please add your ssm file. For a successful upload, the file must be no larger than 1 MB.</p>
             </div>
         </header>
         <!-- Import Section-->
         <section class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">
                 <!-- Import Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">Upload</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-white">Upload Desk</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon"><i class="fa-solid fa-floppy-disk"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <form>                       
                     <div class="form-group row">
-                        <label class="col-lg-4 col-form-label form-control-label">Please add your CSV file to upload</label>
+                        <label class="col-lg-4 col-form-label form-control-label">Please add your CSV file. For a successful upload, the file must be no larger than 1 MB.</label>
                         <div class="col-lg-4">
                             <input class="form-control" type="file">
                         </div>
@@ -73,15 +73,14 @@
             <div class="container">
                 <!-- Clear all records Section Form-->
                 <div class="row justify-content-center">
-                    <div class="col-lg-8 col-xl-7">
-                        <form>       
-                            <!-- Submit Button-->
-                            <button class="btn btn-danger btn-xl" id="submitButton" type="submit">Clear all records</button>
-                        </form>
-                        <!-- Upload Section Content-->
-                        <div class="row">
-                            <div class="col-lg-8 ms-auto"><p class="lead">Warning! By clicking on this button you delete all records of your CSV files from the database!</p></div>
-                        </div>
+                    <div class="col-lg-3 col-xl-2">
+                        <form action="#">       
+                            <div class="row">
+                                <!-- Submit Button-->
+                                <button class="btn btn-danger btn-xl" id="submitButton" type="submit">Clear all records</button>
+                                <div class="ms-auto"><p class="lead">Warning! By clicking on this button you delete all records of your CSV files from the database!</p></div>
+                            </div>
+                        </form>   
                     </div>
                 </div>
             </div>

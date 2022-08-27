@@ -6,6 +6,6 @@ class MyDB()
 {
     var $dblogin = "root";
     var $dbpassword = "";
-    var $db = "csvloader";
+    var $db = "csv_loader";
     var $dbhost = "localhost";
 }

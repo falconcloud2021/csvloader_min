@@ -4,6 +4,17 @@ namespace App\Models;
 
 abstract class ActiveRecord 
 {
+    /** @var int */
+    protected $uid;
+
+    /**
+     * @return int
+     */
+    public function getUID(): int
+    {
+        return $this->uid;
+    }
+
     public static function getAllRecords(): array
     {
         $db = Db::getInstance();
